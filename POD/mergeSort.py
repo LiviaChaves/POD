@@ -31,4 +31,4 @@ def mergeSort(alist):
             alist[k] = righthalf[i]
             i = i + 1
             k = k + 1        
-    print("Merging",alist)        
+    print("Merging",alist)      
