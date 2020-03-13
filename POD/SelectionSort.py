@@ -21,7 +21,7 @@ def selection_sort(A):
     
 
 if __name__=="__main__":
-    numbers = [12, 2, 4, 18, 6, 5]
+    numbers = [25,1,4,3,3,12,2]
     n = str(select_max(numbers, 0, len(numbers)-1))
     print("A posição que contém o maior número é " + n)
     selection_sort(numbers)
